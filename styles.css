@@ -705,17 +705,7 @@ img {
 }
 
 .section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(5, 5, 12, 0.55);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  z-index: -1;
-  pointer-events: none;
+  display: none;
 }
 
 .hero-section::before {
