@@ -253,6 +253,7 @@ img {
   height: 100%;
   background: url('../assets/images/Background.webp') center center / cover no-repeat, radial-gradient(ellipse at 50% 30%, #1a1a3a 0%, #0a0a15 60%, #050510 100%);
   z-index: 0;
+  height: 100dvh;
 }
 
 .bg-vignette {
